@@ -1,0 +1,1 @@
+jQuery(function(){var a=(navigator.userAgent.match(/(iPad|iPhone|iPod)/g)?true:false);function b(){return !!document.createElementNS&&!!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect}if(b()){jQuery(".read_later_service").find("img").each(function(){this.src=this.src.replace(/.png$/,".svg")})}});

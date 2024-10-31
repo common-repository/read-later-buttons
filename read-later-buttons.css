@@ -1,0 +1,72 @@
+.read_later_buttons {
+	margin-bottom: 1em;
+}
+
+.read_later_service, .kindleWidget {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.widget_read_later_buttons .read_later_service,
+.widget_read_later_buttons .kindleWidget {
+	display: block;
+	margin: .5em 0;
+	max-width: 200px;
+}
+
+.widget_read_later_buttons .button,
+.widget_read_later_buttons .kindleWidget {
+	width: 100%;
+}
+
+.read_later_buttons .button {
+	display: block;
+	border: #ccc solid thin;
+
+	background-image: linear-gradient(bottom, rgb(230,230,230) 34%, rgb(255,255,255) 67%);
+	background-image: -o-linear-gradient(bottom, rgb(230,230,230) 34%, rgb(255,255,255) 67%);
+	background-image: -moz-linear-gradient(bottom, rgb(230,230,230) 34%, rgb(255,255,255) 67%);
+	background-image: -webkit-linear-gradient(bottom, rgb(230,230,230) 34%, rgb(255,255,255) 67%);
+	background-image: -ms-linear-gradient(bottom, rgb(230,230,230) 34%, rgb(255,255,255) 67%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.34, rgb(230,230,230)),
+		color-stop(0.67, rgb(255,255,255))
+	);
+
+	cursor: pointer;
+	padding: 3px;
+	font-size: 11px;
+	line-height: 1em;
+	font-family: sans-serif;
+	white-space: nowrap;
+	color: #000;
+	text-decoration: none;
+	border-radius: .25rem;
+	vertical-align: middle;
+}
+
+.read_later_buttons .button:hover {
+	background: #e6e6e6;
+}
+
+.read_later_buttons .button img {
+	vertical-align: middle;
+	height: 13px;
+	width: 13px;
+	border: 1px solid #ccc;
+	margin-right: .5em;	
+}
+
+.read_later_buttons .kindleWidget img {
+	border: none;
+}
+
+.read_later_buttons .button span,
+.read_later_buttons .button:hover span {
+	height: 100%;
+	vertical-align: middle;
+	color: #000;
+}
